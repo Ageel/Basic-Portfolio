@@ -1,3 +1,154 @@
+body{
+	width: 960px;
+	background-color: gray; 
+	margin: 0 auto;
+	display: table;
+	height: 100%;
+	position: relative;
+	/*background-image: url(assets/images/green_cup.png);*/
+}
+
+/*.wrapper{
+	padding: 20px;
+	height: auto;
+	
+}*/
+/*Header Section with the name and the About, Portfolio and Contact links.*/
+header{
+	height: 50px;
+	width: 960px;
+	background-color: white;
+	/*padding: 0 20px;*/
+	/*padding-top: 20px;
+	padding-left: 40px;
+	padding-right: 40px;*/
+	border: 1px solid #cccccc;
+	font-family: 'Georgia', Times, "Times New Roman", serif;
+}
 h1{
-	background-color: red;
+	background-color: #4aaaa5;
+	height: 41px;
+	width: 200px;
+	color: white;
+	float: left;
+	padding-top: 0px;
+	font-size: 2.0em;
+	/*font-size: 1.5em;*/
+
+}
+
+a{
+	text-decoration: none;
+	color: gray;
+}
+
+a:hover{
+	background-color: #4aaaa5;
+	color: white;
+	font-size: 1.1em; 
+}
+
+.name {
+	text-align: center;
+	padding-top: 10px;
+	/*overflow: hidden;*/
+}
+
+.links{
+	padding-right: 20px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+
+    /*float: right;*/
+    /*overflow: hidden;*/
+    /*background-color: #333333;*/
+}
+
+li {
+    float: right;
+
+}
+
+.clearfix{
+	clear: both;
+}
+/*END OF HEADER SECTION*/
+
+/*Beginning of main content section.*/
+.main-content{
+	background-image: url("/assets/images/green_cup.png");
+	height: 600px;
+	width: 960px; 
+	background-color: pink;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+h2{
+	color: #4aaaa5;
+	font-size: 2.0em;
+}
+.me {
+	width: 60%;
+	height: 50%;
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+	float: left;
+	margin-top: 20px;
+	margin-left: 30px;
+	margin-bottom: 10px;
+	padding: 5px;
+	/*font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;*/
+	
+
+
+	/*color: #4aaaa5;*/
+}
+
+img{
+	float: left;
+	margin: 5px;
+}
+
+.social-links {
+	width: 30%;
+	height: 30%;
+	background-color: #ffffff
+	;
+	float: right;
+	margin-top: 20px;
+	margin-left: : 0px;
+	padding-top: 10px;
+
+}
+
+.social-links img{
+	height: 70px;
+	width: 70px;
+}
+
+.social-links h2{
+	text-align: center;
+}
+
+footer{
+	background-color: slategray;
+	padding-top: 25px;
+	/*display: table-row;
+	height: 1px;*/
+	height: 50px;
+	text-align: center;
+	position: fixed;
+	left: 30;
+	bottom: 0;
+	width: 960px;
+	border-top: 10px solid #4aaaa5;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	/*margin: 0 auto;*/
+}
+
+.footer{
+	margin: 0 auto;
 }
